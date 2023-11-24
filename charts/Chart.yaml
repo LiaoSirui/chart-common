@@ -1,0 +1,24 @@
+# Copyright VMware, Inc.
+# SPDX-License-Identifier: APACHE-2.0
+
+annotations:
+  category: Infrastructure
+  licenses: Apache-2.0
+apiVersion: v2
+appVersion: 0.0.1
+version: 0.0.1
+description: A Library Helm Chart. This chart is not deployable by itself.
+# home: 
+# icon: 
+keywords:
+  - common
+  - helper
+  - template
+  - function
+maintainers:
+  - name: cyril@liaosirui.com
+    url: https://github.com/LiaoSirui
+name: common
+sources:
+  - https://github.com/LiaoSirui/chart-common.git
+type: library
